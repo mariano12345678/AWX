@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks :
+   - name : install vim
+     package : pkg=vim state=installed
+
