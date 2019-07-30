@@ -1,1 +1,5 @@
-test
+---
+- hosts: all
+  tasks :
+   - name : install nginx
+     package : pkg=nginx state=installed
